@@ -11,17 +11,45 @@
 
 %---------------------------------------------------------
   \cventry
-    {Computer System Coursework: Concurrent \& Distributed Programming} % Affiliation/role
-    {Golang: Conway's Game of Life} % Organization/group
+    {High Performance Computing Coursework} % Affiliation/role
+    {Parallel, Distributed, and GPU Optimisation for Lattice Boltzmann Method} % Organization/group
     {University of Bristol} % Location
-    {2020} % Date(s)
+    {2022} % Date(s)
     {
       \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Was given a framework that handled I/O and visualisation.}
-        \item {Built a parallel version that could divide the task and processing it with several goroutines.}
-        \item {Built a distributed version using an AWS EC2 to controls several parallel instances and the EC2 would be invoked by an RPC called from client.}
+        \item {Parallelised the LBM implementation on 28 cores within one compute node using OpenMP and achieved 0.98\% of the unoptimised ballpark time.}
+        \item {Distributed the LBM computation on 28 cores for 4 compute nodes using MPI and increased the performance for 7.38X comparing to the OpenMP parallelised version.}
+        \item {Accelerated the LBM on NVIDIA RTX 2080 Ti with OpenCL and CUDA seperately and reduced the time for 65.38\% comparing to the MPI distributed version.}
       \end{cvitems}
     }
+
+%---------------------------------------------------------   
+  \cventry
+    {Computer Graphics Coursework} % Affiliation/role
+    {C++ 3D Renderer with GLM and SDL2} % Organization/group
+    {University of Bristol} % Location
+    {2021} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of experience/contributions/knowledge
+        \item {Implemented a base version with geometry and material file loading, image exporting, keyboard control, basic texture mapping, wireframe rendering, and rasterising rendering.}
+        \item {Enhanced the base version with ray tracing functionalities including hard shadow, ambient lighting, and diffuse lighting.}
+        \item {Further improve the renderer with Gouraud shading, Phong Shading, specular lighting, and reflective materials.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+%   \cventry
+%     {Computer System Coursework: Concurrent \& Distributed Programming} % Affiliation/role
+%     {Golang: Conway's Game of Life} % Organization/group
+%     {University of Bristol} % Location
+%     {2020} % Date(s)
+%     {
+%       \begin{cvitems} % Description(s) of experience/contributions/knowledge
+%         \item {Was given a framework that handled I/O and visualisation.}
+%         \item {Built a parallel version that could divide the task and processing it with several goroutines.}
+%         \item {Built a distributed version using an AWS EC2 to controls several parallel instances and the EC2 would be invoked by an RPC called from client.}
+%       \end{cvitems}
+%     }
 
 %---------------------------------------------------------
   \cventry
@@ -52,18 +80,18 @@
 %     }
 
 %---------------------------------------------------------
-  \cventry
-    {Object-Oriented Programming Coursework} % Affiliation/role
-    {Java: The Scotland Yard} % Organization/group
-    {University of Bristol} % Location
-    {2020} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Developed the game logistic and an AI player of digital board game “Scotland Yard” using Java, with OOP and FP concepts applied.}
-        \item {Made use of design patterns such as Factory pattern, Visitor pattern, etc.}
-        \item {AI picked the best move using a game tree constructed by Minimax and Alpha-beta pruning.}
-      \end{cvitems}
-    }
+%   \cventry
+%     {Object-Oriented Programming Coursework} % Affiliation/role
+%     {Java: The Scotland Yard} % Organization/group
+%     {University of Bristol} % Location
+%     {2020} % Date(s)
+%     {
+%       \begin{cvitems} % Description(s) of experience/contributions/knowledge
+%         \item {Developed the game logistic and an AI player of digital board game “Scotland Yard” using Java, with OOP and FP concepts applied.}
+%         \item {Made use of design patterns such as Factory pattern, Visitor pattern, etc.}
+%         \item {AI picked the best move using a game tree constructed by Minimax and Alpha-beta pruning.}
+%       \end{cvitems}
+%     }
 
 %---------------------------------------------------------
 %   \cventry
