@@ -52,7 +52,7 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-\photo[circle,noedge,left]{NOprofile}
+% \photo[circle,noedge,left]{NOprofile}
 \name{Xiaoyang (Merle)}{Zhang}
 \position{3rd Year Computer Science Student{\enskip\cdotp\enskip}Software Engineer}
 \address{Bristol, UK}
@@ -82,18 +82,19 @@
 %-------------------------------------------------------------------------------
 % The company being applied to
 \recipient
-  {Company Recruitment Team}
-  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+  {Campus Recruitment Team}
+  {Optiver, Strawinskylaan 3095, 1077 ZX Amsterdam, The Netherlands}
+%   {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Job Application for Software Engineer}
+\lettertitle{Job Application for Graduate Site Reliability Engineer}
 % How the letter is opened
-\letteropening{Dear Mr./Ms./Dr. LastName,}
+% \letteropening{Dear campus recruiter,}
 % How the letter is closed
-\letterclosing{Sincerely,}
+\letterclosing{Kind regards,}
 % Any enclosures with the letter
-\letterenclosure[Attached]{Curriculum Vitae}
+% \letterenclosure[Attached]{Curriculum Vitae}
 
 
 %-------------------------------------------------------------------------------
@@ -101,13 +102,13 @@
 
 % Print the header with above personal informations
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader[R]
+\makecvheader[C]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Cover Letter}
+  {Merle Zhang~~~·~~~Cover Letter}
   {}
 
 % Print the title with above letter informations
@@ -119,14 +120,16 @@
 \begin{cvletter}
 
 \lettersection{About Me}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+An enthusiastic and self-motivated computer science student who enjoys learning new technology. 
+Worked on projects about site reliability, reinforcement learning, full-stack, and data science. Had experience in leadership positions and took part in several competitions, e.g., Game Jam, CTF, Hackathon, Datathon, etc. Interned at \textbf{Google SRE team}, Inductosense Software Team, and Goldman Sachs Engineering Division. Interested in \textbf{Distributed Systems}, Reinforcement Learning, Chaos Engineering, etc.
 
-\lettersection{Why Google?}
-Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+\lettersection{Why Optiver?}
+The first time I was attracted by Optiver was in an event where a Optiver engineer Patrick Kostjens talked about \textbf{low latency programming}, because I am a fun of C++ and low-level acceleration, and I also took a \textbf{High Performance Computing} module at Bristol and increased the performance for hundreds of time in the coursework. After that, I also participated the \textbf{Ready Trader Go} where I learnt a lot about trading and market making and was deeply attracted by what Optiver is doing. In addition, I was fascinated by the complicated systems SREs at Optiver need to work with everyday. I found my passion in improving the \textbf{reliability and performance} of modern systems, and consequently write my dissertation about \textbf{\textit{Resource Management with Reinforcement Learning}} where I researched about multi-resource cluster job scheduling problem.
 
 \lettersection{Why Me?}
-Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+I am very experienced in software engineering and Site Reliability Engineering, which includes comprehending complex systems (\textbf{rapid learning}), collaborating with individuals from diverse backgrounds (\textbf{cooperation}), and working on challenging projects (\textbf{time management}). The most intricate, and hence the most pleasant, was my internship at Google as a Site Reliable Engineering Intern. My project was to develop the infrastructure to integrate dozens of checks on Google’s production services with the internal programme analysis platform Tricorder. This project significantly increased development efficiency and eliminated production failures prior to submitting the code. Working on this project required the use of the Golang, as well as the usage of Bazel/Starlark custom rules and macros, Protobufs, and various other internal Google technologies. The most challenging aspect was the beginning when I had to master several advanced internal systems and tools which were quite divergent from the systems outside. However, I was able to decompose complicated processes into simple components by leveraging my previous knowledge base. In addition, cooperation was crucial since I needed to collaborate with other interns, full-time employees, and managers. I always prepared an agenda before each meeting to ensure that everyone’s time was used properly. Furthermore, the time for this challenging project is very limited, so I created a weekly schedule at the start of each week and regularly reviewed it to adjust the priority during the week. 
 
+I am very enthusiastic about the opportunity to join Optiver. Thank you for considering my application and I look forward to hearing from you. 
 \end{cvletter}
 
 
